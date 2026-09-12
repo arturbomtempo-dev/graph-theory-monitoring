@@ -6,6 +6,8 @@ Este repositório reúne o material de apoio da **monitoria da disciplina de Teo
 [![Disciplina](https://img.shields.io/badge/Disciplina-Teoria_dos_Grafos-007ec6?style=for-the-badge&logo=graphql&logoColor=white)](https://github.com/arturbomtempo-dev/graph-theory-monitoring)
 [![Material](https://img.shields.io/badge/Material-Slides_em_PDF-007ec6?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./slides)
 [![Aulas](https://img.shields.io/badge/Aulas-22_tópicos-007ec6?style=for-the-badge&logo=bookstack&logoColor=white)](#-slides-da-disciplina)
+[![Graph Labs](https://img.shields.io/badge/Graph_Labs-Executar_Algoritmos-007ec6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.graphlabs.arturbomtempo.dev/)
+[![Playlist](https://img.shields.io/badge/YouTube-Playlist_de_Aulas-007ec6?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/playlist?list=PLapbd0b89FgE)
 [![Resumo](https://img.shields.io/badge/Resumo-1ª_Avaliação-007ec6?style=for-the-badge&logo=readthedocs&logoColor=white)](#-resumo-dos-conceitos-iniciais)
 [![Exercícios](https://img.shields.io/badge/Exercícios-Revisão_Resolvida-007ec6?style=for-the-badge&logo=googleclassroom&logoColor=white)](#-listas-de-exercícios-e-resoluções)
 [![GitHub](https://img.shields.io/badge/GitHub-Repositório-007ec6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arturbomtempo-dev/graph-theory-monitoring)
@@ -25,6 +27,7 @@ Este repositório reúne o material de apoio da **monitoria da disciplina de Teo
 - [Slides da Disciplina](#-slides-da-disciplina)
 - [Resumo dos Conceitos Iniciais](#-resumo-dos-conceitos-iniciais)
 - [Listas de Exercícios e Resoluções](#-listas-de-exercícios-e-resoluções)
+- [Materiais Complementares da Monitoria](#-materiais-complementares-da-monitoria)
 - [Estrutura de Pastas](#-estrutura-de-pastas)
 - [Como Utilizar](#-como-utilizar)
 - [Documentações e Referências](#-documentações-e-referências)
@@ -54,6 +57,9 @@ Este repositório nasceu do trabalho de **monitoria da disciplina de Teoria dos 
 - 📑 **Slides das aulas:** todos os tópicos da disciplina em PDF, numerados na ordem em que são apresentados.
 - 🧠 **Resumo de conteúdo:** um resumo manuscrito e revisado com **todos os conceitos cobrados na 1ª avaliação**, dos fundamentos até separabilidade, Kosaraju e grafos eulerianos.
 - 🧾 **Listas de exercícios de revisão com resolução:** enunciados e as minhas resoluções, feitas à mão, para estudo antes da prova.
+- 🧪 **Graph Labs:** a plataforma web que desenvolvi para montar grafos e executar os algoritmos clássicos passo a passo.
+- 📺 **Playlist de vídeos:** aulas gravadas por mim explicando os conceitos do conteúdo.
+- 🧩 **Projeto prático de referência:** o trabalho final da disciplina, para ver a teoria aplicada em código real.
 - 🧭 **Organização por tema:** da introdução aos grafos até algoritmos avançados de fluxo, emparelhamento e coloração.
 - 🎥 **Apoio às aulas gravadas:** os slides usados nas aulas gravadas ficam disponíveis para consulta durante e depois da gravação.
 - 🧮 **Cobertura dos algoritmos clássicos:** DFS, BFS, Kosaraju, Fleury, Prim, Kruskal, Dijkstra, Bellman-Ford, Floyd-Warshall, Ford-Fulkerson, Edmonds-Karp, Dinic, Kahn, Edmonds e Welsh-Powell.
@@ -125,6 +131,8 @@ Na pasta [`exercises/`](./exercises) estão as **listas de revisão** usadas na 
 
 > [!IMPORTANT]
 > **Estas listas não valem ponto.** São exclusivamente listas de **revisão e estudo** para a prova, disponibilizadas pelo professor com esse propósito. Atividades avaliativas - as que valem nota - **não são e não serão publicadas aqui**, nem seus enunciados nem suas resoluções. Publicar esse tipo de material feriria a integridade acadêmica da disciplina, e por isso o repositório se limita a material de revisão sem pontuação.
+>
+> A única exceção é o **trabalho final da disciplina**, que é público com autorização e está apenas **referenciado** como repositório externo, em [Materiais Complementares da Monitoria](#-materiais-complementares-da-monitoria) - com a ressalva, feita lá, de que ele serve como referência de estudo e **nunca** como resposta para o trabalho de ninguém.
 
 ### Revisão para a 1ª Avaliação
 
@@ -141,6 +149,46 @@ Na pasta [`exercises/`](./exercises) estão as **listas de revisão** usadas na 
 > **Elas não são gabarito oficial.** Diversos exercícios admitem **mais de uma resposta correta** - construir um grafo com determinada sequência de graus, exibir um subgrafo induzido, escolher a ordem de visitação em uma busca ou apresentar um isomorfismo explícito, por exemplo, costumam ter várias soluções igualmente válidas. Outros podem ser demonstrados por caminhos diferentes dos que eu segui. Portanto, **chegar a uma resposta diferente da minha não significa necessariamente que você errou**.
 >
 > A recomendação é sempre a mesma: **tente resolver por conta própria antes de olhar a resolução** e, em caso de divergência ou dúvida, confirme com o professor ou traga a questão para a monitoria. Se você identificar algum erro em alguma resolução, abra uma **issue** - correções são muito bem-vindas.
+
+---
+
+## 🚀 Materiais Complementares da Monitoria
+
+Além dos arquivos versionados neste repositório, produzi outros materiais de apoio à disciplina que ficam hospedados fora dele. Todos são gratuitos e de acesso livre.
+
+### 🧪 Graph Labs - laboratório visual de algoritmos em grafos
+
+[![Acessar o Graph Labs](https://img.shields.io/badge/Acessar-graphlabs.arturbomtempo.dev-007ec6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.graphlabs.arturbomtempo.dev/)
+
+O **[Graph Labs](https://www.graphlabs.arturbomtempo.dev/)** é uma plataforma web que desenvolvi para apoiar o estudo da disciplina. Nela você **monta o seu próprio grafo** e **executa os algoritmos clássicos passo a passo**, acompanhando as tabelas, as filas e a **justificativa de cada iteração** - exatamente o tipo de execução manual que é cobrado na prova.
+
+É a forma mais rápida de conferir se a sua execução no papel está correta: refaça na plataforma o mesmo exercício que você resolveu à mão e compare iteração por iteração. Quando o resultado divergir, o passo a passo mostra exatamente em qual iteração a sua execução tomou outro caminho.
+
+> [!TIP]
+> O melhor uso do Graph Labs é **depois** de tentar resolver no papel, como conferência - e não no lugar da execução manual. Na prova, quem executa o algoritmo é você.
+
+### 📺 Playlist de vídeos: Teoria dos Grafos
+
+[![Assistir no YouTube](https://img.shields.io/badge/Assistir-Playlist_no_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/playlist?list=PLapbd0b89FgE)
+
+Gravei uma **[playlist de vídeos](https://youtube.com/playlist?list=PLapbd0b89FgE)** explicando os conceitos do conteúdo da disciplina. É o mesmo material do resumo e dos slides, mas explicado em vídeo e com os exemplos desenvolvidos na tela - útil para quem aprende melhor acompanhando a explicação do que lendo.
+
+Funciona bem como primeiro contato com um tópico novo ou como revisão de algum ponto do resumo que não ficou claro.
+
+### 🧩 Trabalho final da disciplina - projeto prático de referência
+
+[![Ver o repositório](https://img.shields.io/badge/Ver_repositório-graph--theory--final--project-007ec6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arturbomtempo-dev/graph-theory-final-project)
+
+O repositório **[graph-theory-final-project](https://github.com/arturbomtempo-dev/graph-theory-final-project)** reúne o **trabalho final** que desenvolvemos na disciplina. Ele foi feito por **Artur Bomtempo Colen**, **Carlos José Gomes Batista Figueiredo**, **Eduarda Vieira Gonçalves**, **Luísa Oliveira Jardim** e **Rafael Ganascini de Moura**.
+
+O projeto tem duas etapas: uma **biblioteca de grafos em Python, sem dependências externas**, com uma API única sobre duas representações internas (matriz e lista de adjacência); e um **estudo de caso** que aplica essa biblioteca à análise de uma rede de similaridade entre artistas do Spotify, com cerca de 156 mil vértices e 300 mil arestas, usando *Label Propagation* para detectar comunidades musicais e *Eigenvector Centrality* para identificar artistas influentes.
+
+Ele está aqui por um motivo simples: é a oportunidade de ver **toda essa teoria funcionando em código de verdade**, em escala real. Conceitos que no resumo aparecem como definição - representação por lista de adjacência, busca, componentes, centralidade - lá aparecem como decisão de projeto, com as consequências práticas de cada escolha. Serve também como **ideia de projeto** para quem quiser ir além da disciplina.
+
+> [!WARNING]
+> 🧭 **Este trabalho é um norte, não um gabarito.** Ele está publicado com autorização - a publicação no GitHub foi, inclusive, sugerida na própria disciplina - e é compartilhado aqui para **estudo e inspiração**.
+>
+> **Não use este projeto como resposta para o seu trabalho.** Consultá-lo para entender como um problema foi modelado é estudo; entregá-lo, adaptá-lo ou usá-lo como base da sua submissão é plágio, com todas as consequências acadêmicas que isso implica. O valor do trabalho final está justamente em você passar pelas decisões de modelagem - copiá-las é abrir mão exatamente da parte que ensina.
 
 ---
 
@@ -208,7 +256,7 @@ git pull origin main
 ```
 
 > [!TIP]
-> Um roteiro de estudo que funciona bem: comece pelo **resumo**, revise os **slides** dos pontos em que travar e, por último, tente as **listas de exercícios** sem consultar as resoluções.
+> Um roteiro de estudo que funciona bem: comece pelo **resumo**, revise os **slides** (ou os **[vídeos da playlist](https://youtube.com/playlist?list=PLapbd0b89FgE)**) nos pontos em que travar, tente as **listas de exercícios** sem consultar as resoluções e use o **[Graph Labs](https://www.graphlabs.arturbomtempo.dev/)** para conferir, passo a passo, as execuções de algoritmo que você fez à mão.
 
 ---
 
@@ -220,6 +268,8 @@ Materiais recomendados para aprofundar os tópicos abordados na disciplina:
 - 📖 **Algoritmos (edição original):** CORMEN, T. H. et al. [**Introduction to Algorithms (CLRS)**](https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/). 4. ed. Cambridge: MIT Press, 2022.
 - 📖 **Teoria dos grafos avançada:** DIESTEL, R. [**Graph Theory**](https://diestel-graph-theory.com/)
 - 📖 **Computabilidade:** SIPSER, M. [**Introduction to the Theory of Computation**](https://math.mit.edu/~sipser/book.html)
+- 🧪 **Execução passo a passo (material autoral):** [**Graph Labs**](https://www.graphlabs.arturbomtempo.dev/) - monte o grafo e execute os algoritmos clássicos iteração por iteração
+- 📺 **Videoaulas (material autoral):** [**Playlist Teoria dos Grafos**](https://youtube.com/playlist?list=PLapbd0b89FgE)
 - 🧪 **Visualização de algoritmos:** [**VisuAlgo**](https://visualgo.net/en/graphds) e [**Graph Online**](https://graphonline.top/en/)
 - 🐍 **Biblioteca para experimentação:** [**Documentação do NetworkX**](https://networkx.org/documentation/stable/)
 - 📚 **Exercícios e explicações complementares:** [**GeeksforGeeks: Graph Data Structure and Algorithms**](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
@@ -232,7 +282,7 @@ Materiais recomendados para aprofundar os tópicos abordados na disciplina:
 | :------------------- | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Artur Bomtempo Colen | <div align="center"><img src="https://avatars.githubusercontent.com/u/96635074?v=4" width="70px" height="70px"></div> | <div align="center"><a href="https://github.com/arturbomtempo-dev"><img src="https://arturbomtempo-dev.github.io/arturbomtempo-cdn/assets/icons/github.png" width="50px" height="50px"></a></div> | <div align="center"><a href="https://www.linkedin.com/in/artur-bomtempo/"><img src="https://arturbomtempo-dev.github.io/arturbomtempo-cdn/assets/icons/linkedin.png" width="50px" height="50px"></a></div> | <div align="center"><a href="mailto:arturbcolen@gmail.com"><img src="https://arturbomtempo-dev.github.io/arturbomtempo-cdn/assets/icons/gmail.png" width="50px" height="50px"></a></div> |
 
-O **resumo de conteúdo** e todas as **resoluções das listas de exercícios** deste repositório foram escritos e resolvidos por mim, no papel de monitor da disciplina.
+O **resumo de conteúdo** e todas as **resoluções das listas de exercícios** deste repositório foram escritos e resolvidos por mim, no papel de monitor da disciplina. Também são de minha autoria o **[Graph Labs](https://www.graphlabs.arturbomtempo.dev/)** e a **[playlist de videoaulas](https://youtube.com/playlist?list=PLapbd0b89FgE)** indicados acima.
 
 ---
 
